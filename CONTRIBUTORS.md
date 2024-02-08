@@ -6,3 +6,6 @@ A list of folks that helped with this project.
   * Improve readme.
 * [tmarkov](https://github.com/tmarkov) 
   * Add compatibility with stand-alone home-manager.
+* [ReedClanton](https://github.com/ReedClanton)
+  * README: Fixed link.
+  * Docs: Created definition.md document.
