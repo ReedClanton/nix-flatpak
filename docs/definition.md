@@ -1,4 +1,4 @@
-# `services.flatpak.*enable*`
+# `services.flatpak.enable`
 
 ## Description
 
@@ -16,7 +16,7 @@ false
 true
 ```
 
-# `services.flatpak.update.**onActivation**`
+# `services.flatpak.update.onActivation`
 
 ## Description
 
@@ -34,7 +34,7 @@ false
 true
 ```
 
-# `services.flatpak.**packages**`
+# `services.flatpak.packages`
 
 ## Description
 
@@ -63,7 +63,7 @@ TODO: Figure out where flatpaks are pulled from that don't specify origin, then 
 ]
 ```
 
-# `services.flatpak.**remotes**`
+# `services.flatpak.remotes`
 
 ## Description
 
@@ -99,19 +99,19 @@ List of remotes [`services.flatpak.packages`](TODO) will be installed from.
 
 As of 2024/02/08 adding a remote will remove the default remote. If a [package](TODO) can't be found in the provided remote(s), no warning or error will be shown.
 
-# `services.flatpak.**update**`
+# `services.flatpak.update`
 
 ## Description
 
 Nix set that detemrines how updates will be handled.
 
-# `services.flatpak.update.**auto**`
+# `services.flatpak.update.auto`
 
 ## Description
 
 Nix set that determines if and how automated updates to flatpaks are applied.
 
-# `services.flatpak.update.auto.**enable**`
+# `services.flatpak.update.auto.enable`
 
 ## Description
 
@@ -133,7 +133,7 @@ true
 
 There's no need to also set [`services.flatpak.update.onActivation`](TODO) when this is set to `true`.
 
-# `services.flatpak.update.auto.**onCalendar**`
+# `services.flatpak.update.auto.onCalendar`
 
 ## Description
 
